@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B415B1861DC83AB100B30D5F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B415B1851DC83AB100B30D5F /* main.m */; };
+		B415B1891DC83AB100B30D5F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B415B1881DC83AB100B30D5F /* AppDelegate.m */; };
+		B415B18C1DC83AB100B30D5F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B415B18B1DC83AB100B30D5F /* ViewController.m */; };
+		B415B18F1DC83AB100B30D5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B415B18D1DC83AB100B30D5F /* Main.storyboard */; };
+		B415B1911DC83AB100B30D5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B415B1901DC83AB100B30D5F /* Assets.xcassets */; };
+		B415B1941DC83AB100B30D5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B415B1921DC83AB100B30D5F /* LaunchScreen.storyboard */; };
+		B415B19F1DC83AB100B30D5F /* KMusicPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B415B19E1DC83AB100B30D5F /* KMusicPlayerTests.m */; };
+		B415B1AA1DC83AB100B30D5F /* KMusicPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B415B1A91DC83AB100B30D5F /* KMusicPlayerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B415B19B1DC83AB100B30D5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B415B1791DC83AB100B30D5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B415B1801DC83AB100B30D5F;
+			remoteInfo = KMusicPlayer;
+		};
+		B415B1A61DC83AB100B30D5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B415B1791DC83AB100B30D5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B415B1801DC83AB100B30D5F;
+			remoteInfo = KMusicPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B415B1811DC83AB100B30D5F /* KMusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KMusicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B415B1851DC83AB100B30D5F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B415B1871DC83AB100B30D5F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B415B1881DC83AB100B30D5F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B415B18A1DC83AB100B30D5F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B415B18B1DC83AB100B30D5F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B415B18E1DC83AB100B30D5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B415B1901DC83AB100B30D5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B415B1931DC83AB100B30D5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B415B1951DC83AB100B30D5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B415B19A1DC83AB100B30D5F /* KMusicPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KMusicPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B415B19E1DC83AB100B30D5F /* KMusicPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KMusicPlayerTests.m; sourceTree = "<group>"; };
+		B415B1A01DC83AB100B30D5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B415B1A51DC83AB100B30D5F /* KMusicPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KMusicPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B415B1A91DC83AB100B30D5F /* KMusicPlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KMusicPlayerUITests.m; sourceTree = "<group>"; };
+		B415B1AB1DC83AB100B30D5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B415B17E1DC83AB100B30D5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B415B1971DC83AB100B30D5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B415B1A21DC83AB100B30D5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B415B1781DC83AB100B30D5F = {
+			isa = PBXGroup;
+			children = (
+				B415B1831DC83AB100B30D5F /* KMusicPlayer */,
+				B415B19D1DC83AB100B30D5F /* KMusicPlayerTests */,
+				B415B1A81DC83AB100B30D5F /* KMusicPlayerUITests */,
+				B415B1821DC83AB100B30D5F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B415B1821DC83AB100B30D5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B415B1811DC83AB100B30D5F /* KMusicPlayer.app */,
+				B415B19A1DC83AB100B30D5F /* KMusicPlayerTests.xctest */,
+				B415B1A51DC83AB100B30D5F /* KMusicPlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B415B1831DC83AB100B30D5F /* KMusicPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				B415B1871DC83AB100B30D5F /* AppDelegate.h */,
+				B415B1881DC83AB100B30D5F /* AppDelegate.m */,
+				B415B18A1DC83AB100B30D5F /* ViewController.h */,
+				B415B18B1DC83AB100B30D5F /* ViewController.m */,
+				B415B18D1DC83AB100B30D5F /* Main.storyboard */,
+				B415B1901DC83AB100B30D5F /* Assets.xcassets */,
+				B415B1921DC83AB100B30D5F /* LaunchScreen.storyboard */,
+				B415B1951DC83AB100B30D5F /* Info.plist */,
+				B415B1841DC83AB100B30D5F /* Supporting Files */,
+			);
+			path = KMusicPlayer;
+			sourceTree = "<group>";
+		};
+		B415B1841DC83AB100B30D5F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B415B1851DC83AB100B30D5F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B415B19D1DC83AB100B30D5F /* KMusicPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				B415B19E1DC83AB100B30D5F /* KMusicPlayerTests.m */,
+				B415B1A01DC83AB100B30D5F /* Info.plist */,
+			);
+			path = KMusicPlayerTests;
+			sourceTree = "<group>";
+		};
+		B415B1A81DC83AB100B30D5F /* KMusicPlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B415B1A91DC83AB100B30D5F /* KMusicPlayerUITests.m */,
+				B415B1AB1DC83AB100B30D5F /* Info.plist */,
+			);
+			path = KMusicPlayerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B415B1801DC83AB100B30D5F /* KMusicPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B415B1AE1DC83AB100B30D5F /* Build configuration list for PBXNativeTarget "KMusicPlayer" */;
+			buildPhases = (
+				B415B17D1DC83AB100B30D5F /* Sources */,
+				B415B17E1DC83AB100B30D5F /* Frameworks */,
+				B415B17F1DC83AB100B30D5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KMusicPlayer;
+			productName = KMusicPlayer;
+			productReference = B415B1811DC83AB100B30D5F /* KMusicPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B415B1991DC83AB100B30D5F /* KMusicPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B415B1B11DC83AB100B30D5F /* Build configuration list for PBXNativeTarget "KMusicPlayerTests" */;
+			buildPhases = (
+				B415B1961DC83AB100B30D5F /* Sources */,
+				B415B1971DC83AB100B30D5F /* Frameworks */,
+				B415B1981DC83AB100B30D5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B415B19C1DC83AB100B30D5F /* PBXTargetDependency */,
+			);
+			name = KMusicPlayerTests;
+			productName = KMusicPlayerTests;
+			productReference = B415B19A1DC83AB100B30D5F /* KMusicPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B415B1A41DC83AB100B30D5F /* KMusicPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B415B1B41DC83AB100B30D5F /* Build configuration list for PBXNativeTarget "KMusicPlayerUITests" */;
+			buildPhases = (
+				B415B1A11DC83AB100B30D5F /* Sources */,
+				B415B1A21DC83AB100B30D5F /* Frameworks */,
+				B415B1A31DC83AB100B30D5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B415B1A71DC83AB100B30D5F /* PBXTargetDependency */,
+			);
+			name = KMusicPlayerUITests;
+			productName = KMusicPlayerUITests;
+			productReference = B415B1A51DC83AB100B30D5F /* KMusicPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B415B1791DC83AB100B30D5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = zxk;
+				TargetAttributes = {
+					B415B1801DC83AB100B30D5F = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					B415B1991DC83AB100B30D5F = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B415B1801DC83AB100B30D5F;
+					};
+					B415B1A41DC83AB100B30D5F = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B415B1801DC83AB100B30D5F;
+					};
+				};
+			};
+			buildConfigurationList = B415B17C1DC83AB100B30D5F /* Build configuration list for PBXProject "KMusicPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B415B1781DC83AB100B30D5F;
+			productRefGroup = B415B1821DC83AB100B30D5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B415B1801DC83AB100B30D5F /* KMusicPlayer */,
+				B415B1991DC83AB100B30D5F /* KMusicPlayerTests */,
+				B415B1A41DC83AB100B30D5F /* KMusicPlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B415B17F1DC83AB100B30D5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B415B1941DC83AB100B30D5F /* LaunchScreen.storyboard in Resources */,
+				B415B1911DC83AB100B30D5F /* Assets.xcassets in Resources */,
+				B415B18F1DC83AB100B30D5F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B415B1981DC83AB100B30D5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B415B1A31DC83AB100B30D5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B415B17D1DC83AB100B30D5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B415B18C1DC83AB100B30D5F /* ViewController.m in Sources */,
+				B415B1891DC83AB100B30D5F /* AppDelegate.m in Sources */,
+				B415B1861DC83AB100B30D5F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B415B1961DC83AB100B30D5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B415B19F1DC83AB100B30D5F /* KMusicPlayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B415B1A11DC83AB100B30D5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B415B1AA1DC83AB100B30D5F /* KMusicPlayerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B415B19C1DC83AB100B30D5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B415B1801DC83AB100B30D5F /* KMusicPlayer */;
+			targetProxy = B415B19B1DC83AB100B30D5F /* PBXContainerItemProxy */;
+		};
+		B415B1A71DC83AB100B30D5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B415B1801DC83AB100B30D5F /* KMusicPlayer */;
+			targetProxy = B415B1A61DC83AB100B30D5F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B415B18D1DC83AB100B30D5F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B415B18E1DC83AB100B30D5F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B415B1921DC83AB100B30D5F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B415B1931DC83AB100B30D5F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B415B1AC1DC83AB100B30D5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B415B1AD1DC83AB100B30D5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B415B1AF1DC83AB100B30D5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KMusicPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KMusicPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B415B1B01DC83AB100B30D5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KMusicPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KMusicPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B415B1B21DC83AB100B30D5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KMusicPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KMusicPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KMusicPlayer.app/KMusicPlayer";
+			};
+			name = Debug;
+		};
+		B415B1B31DC83AB100B30D5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KMusicPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KMusicPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KMusicPlayer.app/KMusicPlayer";
+			};
+			name = Release;
+		};
+		B415B1B51DC83AB100B30D5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KMusicPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KMusicPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KMusicPlayer;
+			};
+			name = Debug;
+		};
+		B415B1B61DC83AB100B30D5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KMusicPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KMusicPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KMusicPlayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B415B17C1DC83AB100B30D5F /* Build configuration list for PBXProject "KMusicPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B415B1AC1DC83AB100B30D5F /* Debug */,
+				B415B1AD1DC83AB100B30D5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B415B1AE1DC83AB100B30D5F /* Build configuration list for PBXNativeTarget "KMusicPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B415B1AF1DC83AB100B30D5F /* Debug */,
+				B415B1B01DC83AB100B30D5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B415B1B11DC83AB100B30D5F /* Build configuration list for PBXNativeTarget "KMusicPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B415B1B21DC83AB100B30D5F /* Debug */,
+				B415B1B31DC83AB100B30D5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B415B1B41DC83AB100B30D5F /* Build configuration list for PBXNativeTarget "KMusicPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B415B1B51DC83AB100B30D5F /* Debug */,
+				B415B1B61DC83AB100B30D5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B415B1791DC83AB100B30D5F /* Project object */;
+}
