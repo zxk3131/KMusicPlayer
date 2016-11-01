@@ -1,0 +1,20 @@
+//
+//  PrefixHeader.pch
+//  KMusicPlayer
+//
+//  Created by 赵祥凯 on 16/11/1.
+//  Copyright © 2016年 zxk. All rights reserved.
+//
+
+#ifndef PrefixHeader_h
+#define PrefixHeader_h
+
+#import "Constants.h"
+#import <AFNetworking.h>        //Github排名第一的第三方网络请求类库，封装了系统的NSURLSession+NSOperation
+#import <Masonry.h>         //超好用的链式书写AutoLayout的第三方类库，好用的根本停不下来
+#import <MJRefresh.h>    //优秀的滚动视图头部和脚步刷新效果
+#import <MJExtension.h>
+#import "UIImageView+WebCache.h"
+#import "MBProgressHUD+ZZ.h"
+
+#endif /* PrefixHeader_h */

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TabbarViewController.h
 //  KMusicPlayer
 //
 //  Created by 赵祥凯 on 16/11/1.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface TabbarViewController : UITabBarController
 
 @end
-

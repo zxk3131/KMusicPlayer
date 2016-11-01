@@ -7,14 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B415B1861DC83AB100B30D5F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B415B1851DC83AB100B30D5F /* main.m */; };
-		B415B1891DC83AB100B30D5F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B415B1881DC83AB100B30D5F /* AppDelegate.m */; };
-		B415B18C1DC83AB100B30D5F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B415B18B1DC83AB100B30D5F /* ViewController.m */; };
-		B415B18F1DC83AB100B30D5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B415B18D1DC83AB100B30D5F /* Main.storyboard */; };
+		9C83F9C403C2B220DCB7887B /* libPods-KMusicPlayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A3FD0D4FD4284C89512025AB /* libPods-KMusicPlayer.a */; };
 		B415B1911DC83AB100B30D5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B415B1901DC83AB100B30D5F /* Assets.xcassets */; };
-		B415B1941DC83AB100B30D5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B415B1921DC83AB100B30D5F /* LaunchScreen.storyboard */; };
 		B415B19F1DC83AB100B30D5F /* KMusicPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B415B19E1DC83AB100B30D5F /* KMusicPlayerTests.m */; };
 		B415B1AA1DC83AB100B30D5F /* KMusicPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B415B1A91DC83AB100B30D5F /* KMusicPlayerUITests.m */; };
+		B415B20F1DC8490400B30D5F /* MusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B415B1FA1DC8490400B30D5F /* MusicViewController.m */; };
+		B415B2101DC8490400B30D5F /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B415B1FD1DC8490400B30D5F /* MineViewController.m */; };
+		B415B2111DC8490400B30D5F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B415B1FF1DC8490400B30D5F /* AppDelegate.m */; };
+		B415B2151DC8490400B30D5F /* KPlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = B415B2081DC8490400B30D5F /* KPlayView.m */; };
+		B415B2161DC8490400B30D5F /* TabbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B415B20A1DC8490400B30D5F /* TabbarViewController.m */; };
+		B415B2171DC8490400B30D5F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B415B20B1DC8490400B30D5F /* Info.plist */; };
+		B415B2181DC8490400B30D5F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B415B20C1DC8490400B30D5F /* main.m */; };
+		B415B2201DC84DFD00B30D5F /* MBProgressHUD+ZZ.m in Sources */ = {isa = PBXBuildFile; fileRef = B415B21C1DC84DFD00B30D5F /* MBProgressHUD+ZZ.m */; };
+		B415B2211DC84DFD00B30D5F /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B415B21D1DC84DFD00B30D5F /* MBProgressHUD.bundle */; };
+		B415B2221DC84DFD00B30D5F /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B415B21F1DC84DFD00B30D5F /* MBProgressHUD.m */; };
+		B415B2251DC8536D00B30D5F /* KPlayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B415B2241DC8536D00B30D5F /* KPlayManager.m */; };
+		B415B2281DC854CE00B30D5F /* TracksViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B415B2271DC854CE00B30D5F /* TracksViewModel.m */; };
+		B415B22B1DC8558E00B30D5F /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B415B22A1DC8558E00B30D5F /* BaseModel.m */; };
+		B415B22E1DC855E000B30D5F /* DestinationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B415B22D1DC855E000B30D5F /* DestinationModel.m */; };
+		B415B2311DC8568900B30D5F /* BaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B415B2301DC8568900B30D5F /* BaseViewModel.m */; };
+		B415B2361DC8578200B30D5F /* KNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B415B2351DC8578200B30D5F /* KNetManager.m */; };
+		B415B2391DC8588600B30D5F /* KMoreNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B415B2381DC8588600B30D5F /* KMoreNetManager.m */; };
+		B415B23C1DC85DF700B30D5F /* ContentsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B415B23B1DC85DF700B30D5F /* ContentsModel.m */; };
+		B415B23F1DC85EC900B30D5F /* MoreContentViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B415B23E1DC85EC900B30D5F /* MoreContentViewModel.m */; };
+		B415B2421DC8627000B30D5F /* MusicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B415B2411DC8627000B30D5F /* MusicCell.m */; };
+		B415B2451DC8651400B30D5F /* MusicCellHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = B415B2441DC8651400B30D5F /* MusicCellHeaderView.m */; };
+		B415B2491DC86FF200B30D5F /* KMainPlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B415B2471DC86FF200B30D5F /* KMainPlayViewController.m */; };
+		B415B24A1DC86FF200B30D5F /* KMainPlayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B415B2481DC86FF200B30D5F /* KMainPlayViewController.xib */; };
+		B415B2501DC8757600B30D5F /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = B415B24F1DC8757600B30D5F /* NSString+Extension.m */; };
+		B415B2531DC87CA600B30D5F /* MusicDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B415B2521DC87CA600B30D5F /* MusicDetailCell.m */; };
+		B415B2561DC87F6B00B30D5F /* SongViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B415B2551DC87F6B00B30D5F /* SongViewController.m */; };
+		B415B2591DC882CA00B30D5F /* SongListHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = B415B2581DC882CA00B30D5F /* SongListHeaderView.m */; };
+		B415B25C1DC88E5D00B30D5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B415B25A1DC88E5D00B30D5F /* LaunchScreen.storyboard */; };
+		B415B25E1DC88E6200B30D5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B415B25D1DC88E6200B30D5F /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,22 +60,72 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A3FD0D4FD4284C89512025AB /* libPods-KMusicPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KMusicPlayer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A657C4FAA082DEC7399F734E /* Pods-KMusicPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KMusicPlayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KMusicPlayer/Pods-KMusicPlayer.debug.xcconfig"; sourceTree = "<group>"; };
 		B415B1811DC83AB100B30D5F /* KMusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KMusicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B415B1851DC83AB100B30D5F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B415B1871DC83AB100B30D5F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		B415B1881DC83AB100B30D5F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B415B18A1DC83AB100B30D5F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B415B18B1DC83AB100B30D5F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		B415B18E1DC83AB100B30D5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B415B1901DC83AB100B30D5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B415B1931DC83AB100B30D5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		B415B1951DC83AB100B30D5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B415B19A1DC83AB100B30D5F /* KMusicPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KMusicPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B415B19E1DC83AB100B30D5F /* KMusicPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KMusicPlayerTests.m; sourceTree = "<group>"; };
 		B415B1A01DC83AB100B30D5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B415B1A51DC83AB100B30D5F /* KMusicPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KMusicPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B415B1A91DC83AB100B30D5F /* KMusicPlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KMusicPlayerUITests.m; sourceTree = "<group>"; };
 		B415B1AB1DC83AB100B30D5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B415B1F91DC8490400B30D5F /* MusicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicViewController.h; sourceTree = "<group>"; };
+		B415B1FA1DC8490400B30D5F /* MusicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicViewController.m; sourceTree = "<group>"; };
+		B415B1FC1DC8490400B30D5F /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		B415B1FD1DC8490400B30D5F /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		B415B1FE1DC8490400B30D5F /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B415B1FF1DC8490400B30D5F /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B415B2071DC8490400B30D5F /* KPlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPlayView.h; sourceTree = "<group>"; };
+		B415B2081DC8490400B30D5F /* KPlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPlayView.m; sourceTree = "<group>"; };
+		B415B2091DC8490400B30D5F /* TabbarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabbarViewController.h; sourceTree = "<group>"; };
+		B415B20A1DC8490400B30D5F /* TabbarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabbarViewController.m; sourceTree = "<group>"; };
+		B415B20B1DC8490400B30D5F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B415B20C1DC8490400B30D5F /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B415B20E1DC8490400B30D5F /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		B415B2191DC849C400B30D5F /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		B415B21B1DC84DFD00B30D5F /* MBProgressHUD+ZZ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+ZZ.h"; sourceTree = "<group>"; };
+		B415B21C1DC84DFD00B30D5F /* MBProgressHUD+ZZ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+ZZ.m"; sourceTree = "<group>"; };
+		B415B21D1DC84DFD00B30D5F /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		B415B21E1DC84DFD00B30D5F /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		B415B21F1DC84DFD00B30D5F /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		B415B2231DC8536D00B30D5F /* KPlayManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPlayManager.h; sourceTree = "<group>"; };
+		B415B2241DC8536D00B30D5F /* KPlayManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPlayManager.m; sourceTree = "<group>"; };
+		B415B2261DC854CE00B30D5F /* TracksViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TracksViewModel.h; sourceTree = "<group>"; };
+		B415B2271DC854CE00B30D5F /* TracksViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TracksViewModel.m; sourceTree = "<group>"; };
+		B415B2291DC8558E00B30D5F /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		B415B22A1DC8558E00B30D5F /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		B415B22C1DC855E000B30D5F /* DestinationModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DestinationModel.h; sourceTree = "<group>"; };
+		B415B22D1DC855E000B30D5F /* DestinationModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DestinationModel.m; sourceTree = "<group>"; };
+		B415B22F1DC8568900B30D5F /* BaseViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewModel.h; sourceTree = "<group>"; };
+		B415B2301DC8568900B30D5F /* BaseViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewModel.m; sourceTree = "<group>"; };
+		B415B2341DC8578200B30D5F /* KNetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNetManager.h; sourceTree = "<group>"; };
+		B415B2351DC8578200B30D5F /* KNetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNetManager.m; sourceTree = "<group>"; };
+		B415B2371DC8588600B30D5F /* KMoreNetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMoreNetManager.h; sourceTree = "<group>"; };
+		B415B2381DC8588600B30D5F /* KMoreNetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMoreNetManager.m; sourceTree = "<group>"; };
+		B415B23A1DC85DF700B30D5F /* ContentsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentsModel.h; sourceTree = "<group>"; };
+		B415B23B1DC85DF700B30D5F /* ContentsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentsModel.m; sourceTree = "<group>"; };
+		B415B23D1DC85EC900B30D5F /* MoreContentViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreContentViewModel.h; sourceTree = "<group>"; };
+		B415B23E1DC85EC900B30D5F /* MoreContentViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreContentViewModel.m; sourceTree = "<group>"; };
+		B415B2401DC8627000B30D5F /* MusicCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicCell.h; sourceTree = "<group>"; };
+		B415B2411DC8627000B30D5F /* MusicCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicCell.m; sourceTree = "<group>"; };
+		B415B2431DC8651400B30D5F /* MusicCellHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicCellHeaderView.h; sourceTree = "<group>"; };
+		B415B2441DC8651400B30D5F /* MusicCellHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicCellHeaderView.m; sourceTree = "<group>"; };
+		B415B2461DC86FF200B30D5F /* KMainPlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMainPlayViewController.h; sourceTree = "<group>"; };
+		B415B2471DC86FF200B30D5F /* KMainPlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMainPlayViewController.m; sourceTree = "<group>"; };
+		B415B2481DC86FF200B30D5F /* KMainPlayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KMainPlayViewController.xib; sourceTree = "<group>"; };
+		B415B24E1DC8757600B30D5F /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		B415B24F1DC8757600B30D5F /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+		B415B2511DC87CA600B30D5F /* MusicDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicDetailCell.h; sourceTree = "<group>"; };
+		B415B2521DC87CA600B30D5F /* MusicDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicDetailCell.m; sourceTree = "<group>"; };
+		B415B2541DC87F6B00B30D5F /* SongViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongViewController.h; sourceTree = "<group>"; };
+		B415B2551DC87F6B00B30D5F /* SongViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongViewController.m; sourceTree = "<group>"; };
+		B415B2571DC882CA00B30D5F /* SongListHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongListHeaderView.h; sourceTree = "<group>"; };
+		B415B2581DC882CA00B30D5F /* SongListHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongListHeaderView.m; sourceTree = "<group>"; };
+		B415B25B1DC88E5D00B30D5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B415B25D1DC88E6200B30D5F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		CFD5273F98794ACCC5B16A1C /* Pods-KMusicPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KMusicPlayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-KMusicPlayer/Pods-KMusicPlayer.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +133,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C83F9C403C2B220DCB7887B /* libPods-KMusicPlayer.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +154,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		109DBAB549951BE3BA592075 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A657C4FAA082DEC7399F734E /* Pods-KMusicPlayer.debug.xcconfig */,
+				CFD5273F98794ACCC5B16A1C /* Pods-KMusicPlayer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		36AA463DEAC89F10BB93D468 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3FD0D4FD4284C89512025AB /* libPods-KMusicPlayer.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B415B1781DC83AB100B30D5F = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +178,8 @@
 				B415B19D1DC83AB100B30D5F /* KMusicPlayerTests */,
 				B415B1A81DC83AB100B30D5F /* KMusicPlayerUITests */,
 				B415B1821DC83AB100B30D5F /* Products */,
+				109DBAB549951BE3BA592075 /* Pods */,
+				36AA463DEAC89F10BB93D468 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +196,17 @@
 		B415B1831DC83AB100B30D5F /* KMusicPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				B415B1871DC83AB100B30D5F /* AppDelegate.h */,
-				B415B1881DC83AB100B30D5F /* AppDelegate.m */,
-				B415B18A1DC83AB100B30D5F /* ViewController.h */,
-				B415B18B1DC83AB100B30D5F /* ViewController.m */,
-				B415B18D1DC83AB100B30D5F /* Main.storyboard */,
+				B415B1F81DC8490400B30D5F /* 乐库 */,
+				B415B1FB1DC8490400B30D5F /* 我的 */,
+				B415B2061DC8490400B30D5F /* Common */,
+				B415B20D1DC8490400B30D5F /* Other */,
+				B415B1FE1DC8490400B30D5F /* AppDelegate.h */,
+				B415B1FF1DC8490400B30D5F /* AppDelegate.m */,
+				B415B20B1DC8490400B30D5F /* Info.plist */,
+				B415B20C1DC8490400B30D5F /* main.m */,
+				B415B25D1DC88E6200B30D5F /* Main.storyboard */,
+				B415B25A1DC88E5D00B30D5F /* LaunchScreen.storyboard */,
 				B415B1901DC83AB100B30D5F /* Assets.xcassets */,
-				B415B1921DC83AB100B30D5F /* LaunchScreen.storyboard */,
-				B415B1951DC83AB100B30D5F /* Info.plist */,
 				B415B1841DC83AB100B30D5F /* Supporting Files */,
 			);
 			path = KMusicPlayer;
@@ -140,6 +238,130 @@
 			path = KMusicPlayerUITests;
 			sourceTree = "<group>";
 		};
+		B415B1F81DC8490400B30D5F /* 乐库 */ = {
+			isa = PBXGroup;
+			children = (
+				B415B1F91DC8490400B30D5F /* MusicViewController.h */,
+				B415B1FA1DC8490400B30D5F /* MusicViewController.m */,
+				B415B2541DC87F6B00B30D5F /* SongViewController.h */,
+				B415B2551DC87F6B00B30D5F /* SongViewController.m */,
+				B415B2401DC8627000B30D5F /* MusicCell.h */,
+				B415B2411DC8627000B30D5F /* MusicCell.m */,
+				B415B2511DC87CA600B30D5F /* MusicDetailCell.h */,
+				B415B2521DC87CA600B30D5F /* MusicDetailCell.m */,
+				B415B2431DC8651400B30D5F /* MusicCellHeaderView.h */,
+				B415B2441DC8651400B30D5F /* MusicCellHeaderView.m */,
+				B415B2571DC882CA00B30D5F /* SongListHeaderView.h */,
+				B415B2581DC882CA00B30D5F /* SongListHeaderView.m */,
+				B415B2261DC854CE00B30D5F /* TracksViewModel.h */,
+				B415B2271DC854CE00B30D5F /* TracksViewModel.m */,
+				B415B23D1DC85EC900B30D5F /* MoreContentViewModel.h */,
+				B415B23E1DC85EC900B30D5F /* MoreContentViewModel.m */,
+				B415B22C1DC855E000B30D5F /* DestinationModel.h */,
+				B415B22D1DC855E000B30D5F /* DestinationModel.m */,
+				B415B23A1DC85DF700B30D5F /* ContentsModel.h */,
+				B415B23B1DC85DF700B30D5F /* ContentsModel.m */,
+			);
+			path = "乐库";
+			sourceTree = "<group>";
+		};
+		B415B1FB1DC8490400B30D5F /* 我的 */ = {
+			isa = PBXGroup;
+			children = (
+				B415B1FC1DC8490400B30D5F /* MineViewController.h */,
+				B415B1FD1DC8490400B30D5F /* MineViewController.m */,
+			);
+			path = "我的";
+			sourceTree = "<group>";
+		};
+		B415B2061DC8490400B30D5F /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				B415B2331DC8576A00B30D5F /* Tool */,
+				B415B2321DC8575E00B30D5F /* NetManager */,
+				B415B24B1DC86FFA00B30D5F /* Controller */,
+				B415B24C1DC8700700B30D5F /* View */,
+				B415B24D1DC8701C00B30D5F /* Model */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		B415B20D1DC8490400B30D5F /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				B415B20E1DC8490400B30D5F /* PrefixHeader.pch */,
+				B415B2191DC849C400B30D5F /* Constants.h */,
+				B415B21A1DC84DFD00B30D5F /* MBProgressHUD */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		B415B21A1DC84DFD00B30D5F /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				B415B21B1DC84DFD00B30D5F /* MBProgressHUD+ZZ.h */,
+				B415B21C1DC84DFD00B30D5F /* MBProgressHUD+ZZ.m */,
+				B415B21D1DC84DFD00B30D5F /* MBProgressHUD.bundle */,
+				B415B21E1DC84DFD00B30D5F /* MBProgressHUD.h */,
+				B415B21F1DC84DFD00B30D5F /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		B415B2321DC8575E00B30D5F /* NetManager */ = {
+			isa = PBXGroup;
+			children = (
+				B415B2341DC8578200B30D5F /* KNetManager.h */,
+				B415B2351DC8578200B30D5F /* KNetManager.m */,
+				B415B2371DC8588600B30D5F /* KMoreNetManager.h */,
+				B415B2381DC8588600B30D5F /* KMoreNetManager.m */,
+			);
+			name = NetManager;
+			sourceTree = "<group>";
+		};
+		B415B2331DC8576A00B30D5F /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				B415B2231DC8536D00B30D5F /* KPlayManager.h */,
+				B415B2241DC8536D00B30D5F /* KPlayManager.m */,
+			);
+			name = Tool;
+			sourceTree = "<group>";
+		};
+		B415B24B1DC86FFA00B30D5F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B415B2091DC8490400B30D5F /* TabbarViewController.h */,
+				B415B20A1DC8490400B30D5F /* TabbarViewController.m */,
+				B415B2461DC86FF200B30D5F /* KMainPlayViewController.h */,
+				B415B2471DC86FF200B30D5F /* KMainPlayViewController.m */,
+				B415B2481DC86FF200B30D5F /* KMainPlayViewController.xib */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		B415B24C1DC8700700B30D5F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B415B2071DC8490400B30D5F /* KPlayView.h */,
+				B415B2081DC8490400B30D5F /* KPlayView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		B415B24D1DC8701C00B30D5F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B415B2291DC8558E00B30D5F /* BaseModel.h */,
+				B415B22A1DC8558E00B30D5F /* BaseModel.m */,
+				B415B22F1DC8568900B30D5F /* BaseViewModel.h */,
+				B415B2301DC8568900B30D5F /* BaseViewModel.m */,
+				B415B24E1DC8757600B30D5F /* NSString+Extension.h */,
+				B415B24F1DC8757600B30D5F /* NSString+Extension.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +369,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B415B1AE1DC83AB100B30D5F /* Build configuration list for PBXNativeTarget "KMusicPlayer" */;
 			buildPhases = (
+				628805F76CF81B93FAD7B279 /* Check Pods Manifest.lock */,
 				B415B17D1DC83AB100B30D5F /* Sources */,
 				B415B17E1DC83AB100B30D5F /* Frameworks */,
 				B415B17F1DC83AB100B30D5F /* Resources */,
+				D9073B2C1F4BB67BF0FF2199 /* Embed Pods Frameworks */,
+				3CD3C8C4911A3065814CB03B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -246,9 +471,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B415B1941DC83AB100B30D5F /* LaunchScreen.storyboard in Resources */,
+				B415B24A1DC86FF200B30D5F /* KMainPlayViewController.xib in Resources */,
 				B415B1911DC83AB100B30D5F /* Assets.xcassets in Resources */,
-				B415B18F1DC83AB100B30D5F /* Main.storyboard in Resources */,
+				B415B2211DC84DFD00B30D5F /* MBProgressHUD.bundle in Resources */,
+				B415B25E1DC88E6200B30D5F /* Main.storyboard in Resources */,
+				B415B25C1DC88E5D00B30D5F /* LaunchScreen.storyboard in Resources */,
+				B415B2171DC8490400B30D5F /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,14 +496,83 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3CD3C8C4911A3065814CB03B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KMusicPlayer/Pods-KMusicPlayer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		628805F76CF81B93FAD7B279 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D9073B2C1F4BB67BF0FF2199 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KMusicPlayer/Pods-KMusicPlayer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B415B17D1DC83AB100B30D5F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B415B18C1DC83AB100B30D5F /* ViewController.m in Sources */,
-				B415B1891DC83AB100B30D5F /* AppDelegate.m in Sources */,
-				B415B1861DC83AB100B30D5F /* main.m in Sources */,
+				B415B22E1DC855E000B30D5F /* DestinationModel.m in Sources */,
+				B415B2491DC86FF200B30D5F /* KMainPlayViewController.m in Sources */,
+				B415B2561DC87F6B00B30D5F /* SongViewController.m in Sources */,
+				B415B2161DC8490400B30D5F /* TabbarViewController.m in Sources */,
+				B415B2201DC84DFD00B30D5F /* MBProgressHUD+ZZ.m in Sources */,
+				B415B20F1DC8490400B30D5F /* MusicViewController.m in Sources */,
+				B415B2311DC8568900B30D5F /* BaseViewModel.m in Sources */,
+				B415B2531DC87CA600B30D5F /* MusicDetailCell.m in Sources */,
+				B415B22B1DC8558E00B30D5F /* BaseModel.m in Sources */,
+				B415B2101DC8490400B30D5F /* MineViewController.m in Sources */,
+				B415B2451DC8651400B30D5F /* MusicCellHeaderView.m in Sources */,
+				B415B2281DC854CE00B30D5F /* TracksViewModel.m in Sources */,
+				B415B2151DC8490400B30D5F /* KPlayView.m in Sources */,
+				B415B23C1DC85DF700B30D5F /* ContentsModel.m in Sources */,
+				B415B2181DC8490400B30D5F /* main.m in Sources */,
+				B415B2501DC8757600B30D5F /* NSString+Extension.m in Sources */,
+				B415B2421DC8627000B30D5F /* MusicCell.m in Sources */,
+				B415B2391DC8588600B30D5F /* KMoreNetManager.m in Sources */,
+				B415B2251DC8536D00B30D5F /* KPlayManager.m in Sources */,
+				B415B2111DC8490400B30D5F /* AppDelegate.m in Sources */,
+				B415B2221DC84DFD00B30D5F /* MBProgressHUD.m in Sources */,
+				B415B23F1DC85EC900B30D5F /* MoreContentViewModel.m in Sources */,
+				B415B2591DC882CA00B30D5F /* SongListHeaderView.m in Sources */,
+				B415B2361DC8578200B30D5F /* KNetManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,18 +608,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B415B18D1DC83AB100B30D5F /* Main.storyboard */ = {
+		B415B25A1DC88E5D00B30D5F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B415B18E1DC83AB100B30D5F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		B415B1921DC83AB100B30D5F /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B415B1931DC83AB100B30D5F /* Base */,
+				B415B25B1DC88E5D00B30D5F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -420,9 +709,13 @@
 		};
 		B415B1AF1DC83AB100B30D5F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A657C4FAA082DEC7399F734E /* Pods-KMusicPlayer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/KMusicPlayer/Other/PrefixHeader.pch";
 				INFOPLIST_FILE = KMusicPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.KMusicPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -431,9 +724,13 @@
 		};
 		B415B1B01DC83AB100B30D5F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFD5273F98794ACCC5B16A1C /* Pods-KMusicPlayer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/KMusicPlayer/Other/PrefixHeader.pch";
 				INFOPLIST_FILE = KMusicPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.KMusicPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -505,6 +802,7 @@
 				B415B1B01DC83AB100B30D5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B415B1B11DC83AB100B30D5F /* Build configuration list for PBXNativeTarget "KMusicPlayerTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +811,7 @@
 				B415B1B31DC83AB100B30D5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B415B1B41DC83AB100B30D5F /* Build configuration list for PBXNativeTarget "KMusicPlayerUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +820,7 @@
 				B415B1B61DC83AB100B30D5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
